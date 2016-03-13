@@ -1,0 +1,13 @@
+---
+layout: about
+title: Moji najlepší kamaráti
+---
+<ul>
+{% for friend in site.data.friends %}
+  <li>
+    <a href="https://github.com/{{ friend.github }}">
+      {{ friend.name }}
+    </a>
+  </li>
+{% endfor %}
+</ul>

@@ -1,0 +1,12 @@
+---
+layout: about
+title: Ruby's Blog
+---
+<p>Ovládam celkovo až {{ site.data.programming | size }} programovacích jazykov</p>
+<ul>
+{% for lang in site.data.programming %}
+  <li>
+      {{ lang.language | upcase }} - {{ lang.level }}
+  </li>
+{% endfor %}
+</ul>

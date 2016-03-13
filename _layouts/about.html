@@ -1,0 +1,15 @@
+{% include header.html %}
+<div class="row">
+	<div class="col col-md-4">
+		<ul class="nav nav-pills nav-stacked">
+	  		<li role="presentation" class="active"><a href="/about">Kto som</a></li>
+	  		<li role="presentation"><a href="/about/hobby">Záľuby</a></li>
+	  		<li role="presentation"><a href="/about/programming">Programovanie</a></li>
+			<li role="presentation"><a href="/about/friends">Moji kamaráti</a></li>
+		</ul>
+	</div>
+	<div class="col col-md-8">
+		{{ content }}
+	</div>
+</div>
+{% include footer.html %}

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Ruby Launches Site"
+title: "Spustenie stránky"
 date: 2016-02-25
 ---
 
-Well. Finally got around to putting this old website together. Neat thing about it - powered by [Jekyll](http://jekyllrb.com) and I can use Markdown to author my posts. It actually is a lot easier than I thought it was going to be.
+Konečne som sa dostal k tomu, že som si spravil svoju personálnu stránku. Pokúsim sa sem pridávať aktuálne veci na čom robím a podobne.
