@@ -15,6 +15,7 @@ Druhým projektom z webového publikovania bolo spracovanie mojej bakalárskej p
 - poznámka pod čiarou s linkom `<footnote><para><ulink url="https://www.java.com"></ulink></para></footnote>`
 - vygenerovaný zoznam použitej literatúry a citácia zdrojov pomocou `<citation>SOCKET</citation>`
 - obrázky ako napríklad
+
 ```xml
 <figure id="OBR1" xreflabel="Obrázku 1">
   <title>Server MOD FMS5711</title>
@@ -26,8 +27,10 @@ Druhým projektom z webového publikovania bolo spracovanie mojej bakalárskej p
   </mediaobject>
 </figure>
 ```
+
 - tabuľka so zlúčenými riadkami pomocou atribútu `morerows`. Prílad: `<entry morerows="1">listdirs</entry>`
 - vytvorenie indexu s dvoma úrovňami členenia. V texte som označil pojmy nasledovne:
+
 ```xml
 <figure id="OBR1" xreflabel="Obrázku 1">
   <title>Server MOD FMS5711</title>
@@ -39,7 +42,9 @@ Druhým projektom z webového publikovania bolo spracovanie mojej bakalárskej p
   </mediaobject>
 </figure>
 ```
+
 - elementy na vytovrenie indexu pojmov. V texte som pojem označil nasledovne:
+
 ```xml
 <indexterm>
   <primary sortas="adresa">adresa</primary>
