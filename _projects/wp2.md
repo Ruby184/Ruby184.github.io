@@ -38,6 +38,8 @@ Druhým projektom z webového publikovania bolo spracovanie mojej bakalárskej p
     <textobject><phrase></phrase></textobject>
   </mediaobject>
 </figure>
+```
+- elementy na vytovrenie indexu pojmov. V texte som pojem označil nasledovne:
 ```xml
 <indexterm>
   <primary sortas="adresa">adresa</primary>
