@@ -46,5 +46,5 @@ Tretím projektom z webového publikovania bolo navrhnutie štruktúry jednoduch
 
 ## Inline elementy
 
-- <bold>60˚</bold>
-- <italic>dotykom prsta</italic>
+- `<bold>60˚</bold>`
+- `<italic>dotykom prsta</italic>`
