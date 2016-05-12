@@ -8,18 +8,23 @@ title: Tretie zadanie z webového publikovania
 Tretím projektom z webového publikovania bolo navrhnutie štruktúry jednoduchej prezentácie v  **XML** a vytvorenie transformácie do **XHTML**. Identifikujte základné súčasti prezentácie a navrhnite XML elementy pre ich označkovanie (metadátové, štrukturálne, inline).
 Ďalej vytvorte ukážkovú prezentáciu, ktorá bude demonštrovať možnosti tvorby prezentácií podľa definície typu dokumentu.
 
-## Použité elementy
-- elementy na štandarné členienie textu ako napr. rozdelenie do kapitol `chapter`, a podkapitol pomocou `section`
+## Metadátové elementy
+```xml
+<metadata>
+	<title>Internetové rozhranie pre multimediálny systém do vlakov</title>
+	<subtitle>Bakalárska práca</subtitle>
+	<author>Ľubomír Jesze</author>
+</metadata>
+```
+
+## Štrukturálne elementy
 
 ```xml
 <slide>
-		<title>Obsah prezentácie</title>
-		<toc />
+	title>Obsah prezentácie</title>
+	<toc />
 </slide>
 ```
-
-- tabuľka so zlúčenými riadkami pomocou atribútu `morerows`. Prílad: `<entry morerows="1">listdirs</entry>`
-- vytvorenie indexu s dvoma úrovňami členenia. V texte som označil pojmy nasledovne:
 
 ```xml
 <image>
@@ -27,8 +32,6 @@ Tretím projektom z webového publikovania bolo navrhnutie štruktúry jednoduch
 	<caption>Server MOD FMS5711</caption>
 </image>
 ```
-
-- elementy na vytovrenie indexu pojmov. V texte som pojem označil nasledovne:
 
 ```xml
 <list type="disc">
@@ -40,3 +43,8 @@ Tretím projektom z webového publikovania bolo navrhnutie štruktúry jednoduch
 	</item>
 </list>
 ```
+
+## Inline elementy
+
+- <bold>60˚</bold>
+- <italic>dotykom prsta</italic>
