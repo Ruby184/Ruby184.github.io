@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2016-04-10
-title: Druhý projekt z webového publikovania
+title: Tretie zadanie z webového publikovania
 ---
 ## Zadanie
 
